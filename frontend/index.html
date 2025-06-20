@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Backup App</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #checkServerBtn, #backupBtn { padding: 10px 20px; font-size: 18px; margin: 5px; }
+        #checkServerBtn { background: #2196f3; color: #fff; }
+        #backupBtn { background: #607d8b; color: #fff; }
+        #popup { display: none; background: #222; color: #fff; padding: 10px; position: fixed; top: 20px; left: 50%; transform: translateX(-50%); border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <button id="checkServerBtn">Check Server Status</button>
+    <button id="backupBtn">Create Backup</button>
+    <div id="popup"></div>
+    <script src="main.js"></script>
+</body>
+</html>
